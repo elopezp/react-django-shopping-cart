@@ -28,11 +28,12 @@ Lógica de inventario, validar que solo se muestran los productos en existencia.
 * 4 - Construir docker-compose de backend junto base de datos postgresql:
 `docker-compose build`
 * 5 - Ejecutar docker-compose `docker-compose up`
-* 6 - Crear datos de inicio con fixtures: `docker-compose run --rm app sh -c "python manage.py loaddata initialdata.json"`
-* 7 - En otra terminal ir al directorio de frontend: `cd ../frontend`
-* 8 - Instalar dependencias npm: `npm install`
-* 9 - Ejecutar aplicación frontend en modo desarrollo: `npm run start`
-* 10 - Abrir [http://localhost:3000](http://localhost:3000) para verse en un navegador.
+* 6 - Crear base de datos con migrate: `docker-compose run --rm app sh -c "python manage.py migrate"`
+* 7 - Crear datos de inicio con fixtures: `docker-compose run --rm app sh -c "python manage.py loaddata initialdata.json"`
+* 8 - En otra terminal ir al directorio de frontend: `cd ../frontend`
+* 9 - Instalar dependencias npm: `npm install`
+* 10 - Ejecutar aplicación frontend en modo desarrollo: `npm run start`
+* 11 - Abrir [http://localhost:3000](http://localhost:3000) para verse en un navegador.
 
 ## Tecnologías usadas
 
