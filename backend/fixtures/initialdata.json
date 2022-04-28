@@ -1,0 +1,159 @@
+[
+    {
+        "model": "core.user",
+        "pk": 1,
+        "fields": {
+            "email": "buyer@gmail.com",
+            "password": "pbkdf2_sha256$216000$SKAQ31voEfBQ$YnSVrDVCk413udjVYyLQpILuiIgBhsVTUAKazY6HGHY=",
+            "name": "Erick Lopez Palacios",
+            "dob": "1988-09-13",
+            "gender": "M",
+            "role": "1"
+        }
+    },
+    {
+        "model": "core.user",
+        "pk": 2,
+        "fields": {
+            "email": "seller@gmail.com",
+            "password": "pbkdf2_sha256$216000$SKAQ31voEfBQ$YnSVrDVCk413udjVYyLQpILuiIgBhsVTUAKazY6HGHY=",
+            "name": "Erick Lopez Palacios",
+            "dob": "1988-09-13",
+            "gender": "M",
+            "role": "2"
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "title": "God of War",
+            "price": 499.00,
+            "countInStock": 10,
+            "image": "gow.jpeg",
+            "createdAt": "2022-04-27T12:00:01.000Z"
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": 2,
+        "fields": {
+            "user": 1,
+            "title": "Demon's souls",
+            "price": 499.00,
+            "countInStock": 12,
+            "image": "ds.jpeg",
+            "createdAt": "2022-04-27T12:00:01.000Z"
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": 3,
+        "fields": {
+            "user": 1,
+            "title": "Elder ring",
+            "price": 999.00,
+            "countInStock": 8,
+            "image": "er.jpeg",
+            "createdAt": "2022-04-27T12:00:01.000Z"
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": 4,
+        "fields": {
+            "user": 1,
+            "title": "Ghost of tsushima",
+            "price": 799.00,
+            "countInStock": 10,
+            "image": "got.jpeg",
+            "createdAt": "2022-04-27T12:00:01.000Z"
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": 5,
+        "fields": {
+            "user": 1,
+            "title": "Horizon forbidden west",
+            "price": 999.00,
+            "countInStock": 15,
+            "image": "hfw.jpeg",
+            "createdAt": "2022-04-27T12:00:01.000Z"
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": 6,
+        "fields": {
+            "user": 1,
+            "title": "Horizon zero dawn",
+            "price": 299.00,
+            "countInStock": 2,
+            "image": "hzd.jpeg",
+            "createdAt": "2022-04-27T12:00:01.000Z"
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": 7,
+        "fields": {
+            "user": 1,
+            "title": "Last of us 2",
+            "price": 999.00,
+            "countInStock": 10,
+            "image": "lou2.jpeg",
+            "createdAt": "2022-04-27T12:00:01.000Z"
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": 8,
+        "fields": {
+            "user": 1,
+            "title": "Red dead redemption 2",
+            "price": 699.00,
+            "countInStock": 3,
+            "image": "rdr2.jpeg",
+            "createdAt": "2022-04-27T12:00:01.000Z"
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": 9,
+        "fields": {
+            "user": 1,
+            "title": "Resident evil 2",
+            "price": 499.00,
+            "countInStock": 13,
+            "image": "re2.jpeg",
+            "createdAt": "2022-04-27T12:00:01.000Z"
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": 10,
+        "fields": {
+            "user": 1,
+            "title": "Returnal",
+            "price": 999.00,
+            "countInStock": 12,
+            "image": "returnal.jpeg",
+            "createdAt": "2022-04-27T12:00:01.000Z"
+        }
+    },
+    {
+        "model": "core.product",
+        "pk": 11,
+        "fields": {
+            "user": 1,
+            "title": "Spiderman miles morales",
+            "price": 999.00,
+            "countInStock": 0,
+            "image": "smm.jpeg",
+            "createdAt": "2022-04-27T12:00:01.000Z"
+        }
+    }
+
+]
